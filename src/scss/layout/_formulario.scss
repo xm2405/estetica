@@ -1,0 +1,46 @@
+.formulario {
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    label {
+        flex: 0 0 10rem;
+        color: $blanco;
+    }
+    input {
+        flex: 1;
+        padding: $separacion / 4;
+        border-radius: 1rem;
+        border: none;
+    }
+
+}
+
+.alerta {
+     padding: $separacion/2;
+     text-align: center;
+     display: block;
+     color: $blanco;
+     font-weight: $bold;
+     text-transform: uppercase;
+     width: 100%;
+
+     &.error {
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e52200+33,c92400+56,ff0000+86 */
+         background: rgb(229, 34, 0);
+         /* Old browsers */
+         background: -moz-linear-gradient(left, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+         /* FF3.6-15 */
+         background: -webkit-linear-gradient(left, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+         /* Chrome10-25,Safari5.1-6 */
+         background: linear-gradient(to right, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e52200', endColorstr='#ff0000', GradientType=1);
+         /* IE6-9 */
+
+     }
+}

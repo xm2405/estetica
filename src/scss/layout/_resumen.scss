@@ -1,0 +1,60 @@
+.invalidar-cita {
+       text-align: center;
+       margin: $separacion/2 0;
+       text-transform: uppercase;
+       font-size:2rem;
+       border-radius: 1rem;
+       font-weight: $bold;
+       padding: 1rem .5rem;
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e52200+33,c92400+56,ff0000+86 */
+       background: rgb(229, 34, 0);
+       /* Old browsers */
+       background: -moz-linear-gradient(left, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+       /* FF3.6-15 */
+       background: -webkit-linear-gradient(left, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+       /* Chrome10-25,Safari5.1-6 */
+       background: linear-gradient(to right, rgba(229, 34, 0, 1) 33%, rgba(201, 36, 0, 1) 56%, rgba(255, 0, 0, 1) 86%);
+       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e52200', endColorstr='#ff0000', GradientType=1);
+       /* IE6-9 */
+
+}
+
+.contenido-resumen {
+    margin-bottom: $separacion / 2 0;
+    p {
+        margin-bottom: .5rem;
+        span {
+            font-weight: $bold;
+            color: $azul;
+            font-size: 2.4rem;
+        }
+    }
+
+    .resumen-servicios {
+
+        h3 {
+            margin: $separacion / 2 0;
+        }
+
+        .contenedor-servicio {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #43453c;
+            .precio {
+                font: 2.4rem $bold $azul;
+            }
+        }
+    }
+}
+
+
+.total {
+    text-align: center;
+     padding: 1rem;
+     font-size:2rem;
+     border-radius: 1rem;
+     margin: $separacion/2 0;
+     background-color: #64bc26;
+     text-transform: uppercase;
+}
